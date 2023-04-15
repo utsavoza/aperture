@@ -1,0 +1,70 @@
+ERROR: After October 2020 you may experience errors when installing or updating packages. This is because pip will change the way that it resolves dependency conflicts.
+
+We recommend you use --use-feature=2020-resolver to test your packages with the new resolver before it becomes the default.
+
+tensorflow 2.11.0 requires absl-py>=1.0.0, but you'll have absl-py 0.13.0 which is incompatible.
+/scratch/ugo1/dl/aperture/lib/python3.8/site-packages/numpy/core/getlimits.py:518: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/scratch/ugo1/dl/aperture/lib/python3.8/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+/scratch/ugo1/dl/aperture/lib/python3.8/site-packages/numpy/core/getlimits.py:518: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/scratch/ugo1/dl/aperture/lib/python3.8/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+Matplotlib created a temporary config/cache directory at /state/partition1/job-32312100/matplotlib-946kevit because the default path (/home/ugo1/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Configuration:
+-------------------------
+epochs             : 20
+num_workers        : 2
+lr                 : 0.1
+lr_cosine          : False
+optim              : adadelta
+batch_size         : 32
+model              : resnet10
+summary            : False
+augment            : True
+with_mixup         : False
+device             : cuda
+
+Preparing dataset:
+-------------------------
+Files already downloaded and verified
+Files already downloaded and verified
+
+Training the model
+-------------------------
+Epoch: 1,  Train Loss: 1.32069637,  Train Accuracy: 52.112,  Test Loss: 1.60855271,  Test Accuracy: 50.400, Time: 28.680s
+Saving model ...
+Epoch: 2,  Train Loss: 0.89680942,  Train Accuracy: 68.188,  Test Loss: 0.82730842,  Test Accuracy: 70.900, Time: 20.202s
+Saving model ...
+Epoch: 3,  Train Loss: 0.72342506,  Train Accuracy: 74.882,  Test Loss: 0.73291730,  Test Accuracy: 75.360, Time: 20.118s
+Saving model ...
+Epoch: 4,  Train Loss: 0.63000553,  Train Accuracy: 78.186,  Test Loss: 0.72354323,  Test Accuracy: 75.640, Time: 20.133s
+Saving model ...
+Epoch: 5,  Train Loss: 0.56489509,  Train Accuracy: 80.424,  Test Loss: 0.66788311,  Test Accuracy: 78.380, Time: 20.101s
+Saving model ...
+Epoch: 6,  Train Loss: 0.51394088,  Train Accuracy: 82.296,  Test Loss: 0.59550022,  Test Accuracy: 80.810, Time: 20.193s
+Saving model ...
+Epoch: 7,  Train Loss: 0.47425408,  Train Accuracy: 83.680,  Test Loss: 0.59393928,  Test Accuracy: 80.550, Time: 20.175s
+Epoch: 8,  Train Loss: 0.44302247,  Train Accuracy: 84.878,  Test Loss: 0.54032404,  Test Accuracy: 82.900, Time: 20.245s
+Saving model ...
+Epoch: 9,  Train Loss: 0.41456168,  Train Accuracy: 85.764,  Test Loss: 0.52433724,  Test Accuracy: 82.750, Time: 20.054s
+Epoch: 10,  Train Loss: 0.38993978,  Train Accuracy: 86.584,  Test Loss: 0.43645415,  Test Accuracy: 85.980, Time: 20.106s
+Saving model ...
+Epoch: 11,  Train Loss: 0.36861157,  Train Accuracy: 87.344,  Test Loss: 0.60182790,  Test Accuracy: 81.870, Time: 20.115s
+Epoch: 12,  Train Loss: 0.35038997,  Train Accuracy: 87.806,  Test Loss: 0.40082587,  Test Accuracy: 86.630, Time: 20.094s
+Saving model ...
+Epoch: 13,  Train Loss: 0.33275865,  Train Accuracy: 88.454,  Test Loss: 0.54283506,  Test Accuracy: 83.680, Time: 20.289s
+Epoch: 14,  Train Loss: 0.32106187,  Train Accuracy: 88.984,  Test Loss: 0.41760034,  Test Accuracy: 86.180, Time: 20.212s
+Epoch: 15,  Train Loss: 0.30559882,  Train Accuracy: 89.406,  Test Loss: 0.50026299,  Test Accuracy: 84.390, Time: 20.148s
+Epoch: 16,  Train Loss: 0.29355886,  Train Accuracy: 89.878,  Test Loss: 0.40425675,  Test Accuracy: 86.730, Time: 20.135s
+Saving model ...
+Epoch: 17,  Train Loss: 0.28024806,  Train Accuracy: 90.358,  Test Loss: 0.41003058,  Test Accuracy: 87.120, Time: 20.195s
+Saving model ...
+Epoch: 18,  Train Loss: 0.27233106,  Train Accuracy: 90.542,  Test Loss: 0.42016100,  Test Accuracy: 86.360, Time: 20.106s
+Epoch: 19,  Train Loss: 0.26123840,  Train Accuracy: 91.014,  Test Loss: 0.39618099,  Test Accuracy: 86.930, Time: 20.240s
+Epoch: 20,  Train Loss: 0.25232268,  Train Accuracy: 91.368,  Test Loss: 0.37699465,  Test Accuracy: 87.850, Time: 20.077s
+Saving model ...
+
+Best Accuracy: 87.850
+

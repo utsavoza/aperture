@@ -1,0 +1,51 @@
+Configuration:
+-------------------------
+epochs             : 30
+num_workers        : 2
+lr                 : 0.01
+optim              : adadelta
+batch_size         : 32
+model              : resnet22_2
+summary            : False
+device             : cuda
+
+Preparing dataset:
+-------------------------
+Files already downloaded and verified
+Files already downloaded and verified
+
+Training the model
+-------------------------
+Epoch: 1,  Train Loss: 1.47092461,  Train Accuracy: 46.482,  Test Loss: 1.22126887,  Test Accuracy: 55.510, Time: 29.841s
+Epoch: 2,  Train Loss: 1.03930118,  Train Accuracy: 63.118,  Test Loss: 1.00866988,  Test Accuracy: 64.360, Time: 27.952s
+Epoch: 3,  Train Loss: 0.80192507,  Train Accuracy: 71.842,  Test Loss: 0.93693203,  Test Accuracy: 67.730, Time: 27.844s
+Epoch: 4,  Train Loss: 0.61150960,  Train Accuracy: 79.126,  Test Loss: 0.85515108,  Test Accuracy: 70.630, Time: 27.850s
+Epoch: 5,  Train Loss: 0.43599179,  Train Accuracy: 85.518,  Test Loss: 0.99117911,  Test Accuracy: 67.600, Time: 27.844s
+Epoch: 6,  Train Loss: 0.29030129,  Train Accuracy: 90.976,  Test Loss: 0.95045271,  Test Accuracy: 69.900, Time: 27.862s
+Epoch: 7,  Train Loss: 0.18788735,  Train Accuracy: 94.474,  Test Loss: 1.08475085,  Test Accuracy: 69.170, Time: 27.790s
+Epoch: 8,  Train Loss: 0.13124017,  Train Accuracy: 96.276,  Test Loss: 1.07897430,  Test Accuracy: 69.570, Time: 27.882s
+Epoch: 9,  Train Loss: 0.09592397,  Train Accuracy: 97.386,  Test Loss: 1.16898017,  Test Accuracy: 69.120, Time: 27.899s
+Epoch: 10,  Train Loss: 0.07174986,  Train Accuracy: 98.114,  Test Loss: 1.14667107,  Test Accuracy: 70.140, Time: 27.956s
+Epoch: 11,  Train Loss: 0.06027850,  Train Accuracy: 98.456,  Test Loss: 1.13052591,  Test Accuracy: 70.960, Time: 27.852s
+Epoch: 12,  Train Loss: 0.05174383,  Train Accuracy: 98.638,  Test Loss: 1.12156606,  Test Accuracy: 71.490, Time: 27.868s
+Epoch: 13,  Train Loss: 0.04551079,  Train Accuracy: 98.776,  Test Loss: 1.16244605,  Test Accuracy: 70.950, Time: 27.856s
+Epoch: 14,  Train Loss: 0.03925215,  Train Accuracy: 98.960,  Test Loss: 1.20044741,  Test Accuracy: 70.300, Time: 27.976s
+Epoch: 15,  Train Loss: 0.03584603,  Train Accuracy: 99.100,  Test Loss: 1.17653593,  Test Accuracy: 71.070, Time: 27.859s
+Epoch: 16,  Train Loss: 0.03165894,  Train Accuracy: 99.186,  Test Loss: 1.14169544,  Test Accuracy: 71.680, Time: 27.930s
+Epoch: 17,  Train Loss: 0.02666806,  Train Accuracy: 99.332,  Test Loss: 1.12556757,  Test Accuracy: 72.560, Time: 27.895s
+Epoch: 18,  Train Loss: 0.02531297,  Train Accuracy: 99.320,  Test Loss: 1.17074014,  Test Accuracy: 72.000, Time: 27.803s
+Epoch: 19,  Train Loss: 0.02232071,  Train Accuracy: 99.446,  Test Loss: 1.21550818,  Test Accuracy: 71.010, Time: 27.817s
+Epoch: 20,  Train Loss: 0.02264703,  Train Accuracy: 99.396,  Test Loss: 1.17153544,  Test Accuracy: 72.050, Time: 27.854s
+Epoch: 21,  Train Loss: 0.01880231,  Train Accuracy: 99.524,  Test Loss: 1.16772470,  Test Accuracy: 72.160, Time: 27.895s
+Epoch: 22,  Train Loss: 0.01619900,  Train Accuracy: 99.652,  Test Loss: 1.24412894,  Test Accuracy: 71.070, Time: 27.892s
+Epoch: 23,  Train Loss: 0.01578602,  Train Accuracy: 99.632,  Test Loss: 1.20084560,  Test Accuracy: 72.180, Time: 27.919s
+Epoch: 24,  Train Loss: 0.01503826,  Train Accuracy: 99.634,  Test Loss: 1.24288111,  Test Accuracy: 71.850, Time: 27.943s
+Epoch: 25,  Train Loss: 0.01302969,  Train Accuracy: 99.710,  Test Loss: 1.24976827,  Test Accuracy: 71.240, Time: 27.912s
+Epoch: 26,  Train Loss: 0.01282896,  Train Accuracy: 99.688,  Test Loss: 1.21522635,  Test Accuracy: 71.820, Time: 27.798s
+Epoch: 27,  Train Loss: 0.01154874,  Train Accuracy: 99.720,  Test Loss: 1.21484242,  Test Accuracy: 71.830, Time: 27.898s
+Epoch: 28,  Train Loss: 0.00948240,  Train Accuracy: 99.808,  Test Loss: 1.20280569,  Test Accuracy: 72.970, Time: 27.863s
+Epoch: 29,  Train Loss: 0.00946035,  Train Accuracy: 99.794,  Test Loss: 1.22208142,  Test Accuracy: 72.180, Time: 27.880s
+Epoch: 30,  Train Loss: 0.00766877,  Train Accuracy: 99.844,  Test Loss: 1.19193054,  Test Accuracy: 72.920, Time: 27.889s
+
+Best Accuracy: 72.970
+
